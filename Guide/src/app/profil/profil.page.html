@@ -1,0 +1,65 @@
+
+<ion-content>
+
+<div class="header">
+</div>
+
+<div class="pfp_center">
+    <div class="main_border">
+        <div class="border">
+            <div class="pfp">
+                <img src="../../assets/anonyme.jpg" class="pfp">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<ion-card>
+    <ion-list>
+        <ion-item color="dark">
+            <ion-icon name="person-circle-outline" class="icon"></ion-icon> <h4 class="title">Obligatory</h4>
+        </ion-item>
+        <ion-item color="light">
+          <strong><ion-label color="primary">First Name :</ion-label></strong>
+          <ion-input type="name"></ion-input>
+        </ion-item>
+        <ion-item color="light">
+           <strong><ion-label color="primary">Last Name :</ion-label></strong>
+           <ion-input type="family-name"></ion-input>
+        </ion-item>
+        <ion-item color="light">
+           <strong><ion-label color="primary">Mobile Phone :</ion-label></strong>
+           <ion-input type="number"></ion-input>
+        </ion-item>
+    </ion-list>   
+</ion-card>
+<ion-card>
+    <ion-list>
+        <ion-item color="dark">
+            <ion-icon name="add-circle-outline" class="icon"></ion-icon> <h4 class="title">Additional</h4>
+        </ion-item>
+        <ion-item color="light">
+          <strong><ion-label color="primary"><ion-icon name="calendar-outline"></ion-icon>  BirthDate :</ion-label></strong>
+          <ion-input type="date"></ion-input>
+        </ion-item>
+        <ion-item color="light">
+           <strong><ion-label color="primary"><ion-icon name="people-circle-outline"></ion-icon> Gender :</ion-label></strong>
+        <ion-input>    
+            <ion-select placeholder="Select Gender">
+            <ion-select-option value="apples">Male</ion-select-option>
+            <ion-select-option value="oranges">Female</ion-select-option>
+          </ion-select>
+        </ion-input>
+        </ion-item>
+        <ion-item color="light">
+           <strong><ion-label color="primary"><ion-icon name="location-outline"></ion-icon> Nationality :</ion-label></strong>
+           <ion-input type="country"></ion-input>
+        </ion-item>
+        <ion-item color="light">
+            <strong><ion-label color="primary"><ion-icon name="location-outline"></ion-icon> Country :</ion-label></strong>
+            <ion-input type="city"></ion-input>
+         </ion-item>
+        
+    </ion-list>   
+</ion-card>
+<ion-button class="ion-margin-top" color="white" class="bottomright"><strong style="color:#710e20 ;">Update</strong></ion-button></ion-content>

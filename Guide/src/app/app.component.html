@@ -1,0 +1,33 @@
+<ion-app>
+  <ion-split-page>
+    <ion-menu side="start" type="overlay">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item>
+            <ion-icon name="information-circle-sharp" slot="start"></ion-icon>
+            <ion-label routerLink="home/aboutus">ABOUT US</ion-label>
+          </ion-item>
+          <ion-item routerLink="home/professional">
+            <ion-icon name="briefcase-sharp" slot="start"></ion-icon>
+            <ion-label>Formation Professional</ion-label>
+          </ion-item>
+          <ion-item routerLink="home/universitaire">
+            <ion-icon name="school-sharp" slot="start"></ion-icon>
+            <ion-label>Formation Universitaire</ion-label>
+          </ion-item>
+          <ion-item routerLink="/welcome">
+            <ion-icon name="log-out-sharp" slot="start"></ion-icon>
+            <ion-label>LOGOUT</ion-label>
+          </ion-item>
+        </ion-list>
+        <img src="../assets/menupic.png">
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-page>
+</ion-app>

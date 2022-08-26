@@ -1,0 +1,93 @@
+<ion-content>
+  <img src="../../assets/logo.jpg" class="logopos"/>
+<div style="text-align: center;">
+  <div class="title" >
+      <h2 style="color:antiquewhite">About_Us</h2>
+      <p style="color:antiquewhite">Our future  goals  and ambitions </p>
+  </div>
+</div>
+  <ion-card color="light" style="width: fit-content;margin-inline: auto;">
+    <video width="320" height="240" controls style="height: fit-content;">
+      <source src="../../assets/aboutus.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <ion-card-header>
+      <ion-card-subtitle>ABOUT US</ion-card-subtitle>
+      <ion-card-title style="color:#710e20 ;"><h2 style="font-size: large;">WE EDUCATE FOR IMPACT</h2></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content style="max-inline-size: fit-content;" >
+      <p><strong style="color:#710e20;">Honoris United Universities</strong> is the first and largest pan-African private higher education network committed to transforming lives through relevant education for lifetime success      <button (click)="toogleTag()" style="color:#710e20;">Read more</button>.&nbsp;</p>
+      <p *ngIf="showMe">Collaborative intelligence, cultural agility and mobile mind-sets are at the heart of the Honoris approach to educate the next generation of leaders and professionals able to impact regionally in a globalized world. Honoris combines the expertise of its member institutions to develop world-class African human talent that is competitive in today&rsquo;s fast-paced, demanding and increasingly digitized labour and start-up markets.</p>
+      <p *ngIf="showMe">Honoris comprises a community of&nbsp;<strong>71,000+</strong> students on&nbsp;<strong>70</strong> campuses, learning centres and via on-line, in&nbsp;<strong>10</strong> African countries and&nbsp;<strong>32</strong> cities. The network is formed of&nbsp;<strong>15</strong> institutions: multidisciplinary universities, specialized schools, technical and vocational institutes, contact, distance, and online institutions. Students have an opportunity to experience exclusive partnerships and exchange programs in more than&nbsp;<strong>190</strong> universities across Europe, the United States and Asia. Over&nbsp;<strong>420</strong> degrees are offered in Medicine, Health Sciences, Engineering, IT, Business, Law, Architecture, Creative Arts, Fashion and Design, Media, Political Science and Education.</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card color="light" style="width: fit-content;margin-inline: auto;    width: 320px;">
+
+    <ion-card-header>
+      <ion-card-subtitle>future</ion-card-subtitle>
+      <ion-card-title style="color:#710e20 ;"><h2 style="font-size: large;">VISION, MISSION AND VALUES</h2></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content style="max-inline-size: fit-content;">
+
+    <div>
+        <p>We aim to transform Africa by preparing young leaders able to operate successfully in the world&rsquo;s youngest and fastest growing continent, to address its greatest challenges and to create a long-lasting positive impact on societies and communities.</p>
+        <p>We believe in Africa&rsquo;s potential, and we are committed to transforming lives through relevant education for lifetime success.</p>
+    </div>
+
+    </ion-card-content>
+    
+  </ion-card>
+  <ion-card color="light" style="width: fit-content;margin-inline: auto;    --ion-background-color: #f5f6f9;    width: 320px;">
+
+    <ion-card-header>
+      <ion-card-subtitle>goals</ion-card-subtitle>
+      <ion-card-title style="color:#710e20 ;"><h2 style="font-size: large;">Our mission is to educate and prepare solution-oriented leaders to create impact in Africa and beyond  <button (click)="toogleTag()" style="color:#710e20;">Read more</button>
+
+      </h2></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content style="max-inline-size: fit-content;">
+<ion-list *ngIf="showMe">
+  <ul>
+    <ion-item color="light">
+      <li>
+        <strong>Transformative Impact:</strong>
+         We believe in reshaping the future of learning, to deliver on our Education for Impact mission, by educating and preparing future leaders and professionals capable to leapfrog any obstacles to achieve economic growth for their communities and contribute to the transformation of Africa
+       </li>
+       <br>
+    </ion-item>
+<br>
+<ion-item color="light">
+<br>
+  <li>
+    <strong>Future Oriented Learning:</strong>
+    We believe that through innovative and future-oriented learning approach, we can widen access to quality education and developing world class African human talent with an entrepreneurial mindset and 21 <sup>st</sup>  century skills to thrive in the globally disrupted world of work.
+  </li>
+<br>
+</ion-item>
+<br>
+      <ion-item color="light">
+        <li>
+          <strong>Future-Proof Employability:</strong>
+          We believe in enhancing the employability of our graduates by incorporating a comprehensive and mandatory work readiness program into the network curricula – for graduates to develop soft skills and digital capabilities as well as real world competencies, which will provide them with a competitive advantage in the job market and allow them to succeed in the ever-changing global economy.  
+        </li>
+      </ion-item>
+  </ul>
+</ion-list>
+    </ion-card-content>
+  </ion-card>
+    
+  <ion-card color="light" style="width: fit-content;margin-inline: auto;    width: 320px;">
+    <ion-card-content style="text-align:center;">
+      <a href="https://www.facebook.com/HonorisUni"><ion-icon name="logo-facebook" size="large" color="primary"></ion-icon></a>
+      <a href="https://twitter.com/HonorisUni"><ion-icon name="logo-twitter" size="large" color="primary"></ion-icon></a>
+      <a href="https://www.linkedin.com/company-beta/18121047/"><ion-icon name="logo-linkedin" size="large" color="primary"></ion-icon></a>
+      <a href="https://www.instagram.com/honorisuni/"><ion-icon name="logo-instagram" size="large" color="primary"></ion-icon></a>
+      <br>
+    </ion-card-content>
+  </ion-card>
+
+  <img src="../../assets/background.jpg">
+</ion-content>
